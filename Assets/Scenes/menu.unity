@@ -169,7 +169,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &138007973
 MonoBehaviour:
@@ -504,12 +504,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1878583556}
-  m_Father: {fileID: 1156826791}
-  m_RootOrder: -1
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 183.54932, y: -243.75}
+  m_AnchoredPosition: {x: 615.0493, y: 158.24997}
   m_SizeDelta: {x: 197.9345, y: 106.4836}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &224596222
@@ -893,7 +893,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.9433962, g: 0.4761481, b: 0.4761481, a: 1}
+  m_BackGroundColor: {r: 0.0627451, g: 0.078431375, b: 0.16078432, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1067,12 +1067,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1156826791}
-  m_RootOrder: -1
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 9, y: -263.54}
+  m_AnchoredPosition: {x: 440.5, y: 138.45996}
   m_SizeDelta: {x: 169.0401, y: 21.6423}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1091315501
@@ -1147,8 +1147,6 @@ RectTransform:
   - {fileID: 264490162}
   - {fileID: 1666950263}
   - {fileID: 533270257}
-  - {fileID: 224596221}
-  - {fileID: 1091315500}
   m_Father: {fileID: 1340597657}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1304,7 +1302,7 @@ RectTransform:
   m_Children:
   - {fileID: 1156826791}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1659,5 +1657,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
